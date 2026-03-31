@@ -7,7 +7,8 @@ RUN apt-get update && apt-get install -y \
     docker.io \
     python3 \
     python3-pip \
-    && rm -rf /var/lib/apt/list/*
+    python3-flask \
+    && rm -rf /var/lib/apt/lists/*
 
 # Service Python : exécute des commandes admin
 # (Vulnérable volontairement)
